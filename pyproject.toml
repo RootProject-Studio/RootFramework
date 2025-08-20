@@ -1,0 +1,19 @@
+[project]
+name = "rootFramework"
+version = "0.0.1"
+description = "Un framework pour développer des jeux vidéos en python."
+authors = [
+  { name="Vital FOCHEUX"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = ["pygame-ce"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }  
+packages = ["rootFramework"] 
